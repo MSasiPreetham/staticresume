@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(310deg,#94daec,#ffe4d9,#b8ecdf);
+}
+.west-box{
+	display: inline-flex;
+	min-height: 670px;
+	padding: 1%;
+}
+.in-west{
+	border: 3px solid #777;
+	width: 40%;
+	/*height: 800px*/
+	line-height: 35px;
+	padding-left: 1%;
+	display: block;
+}
+img{
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.name{
+	font-family: 'Aclonica', sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+.email,.ph-no,.address{
+	margin-left: 1%;
+	padding: 2%;
+	line-height: 25px;
+	display: block;
+}
+.email p{
+	display: inline;
+	font-size: 25px;
+}
+.ph-no p{
+	display: inline;
+	font-size: 25px;
+}
+.address p{
+	display: inline;
+	font-size: 25px;
+}
+
+.in-east{
+	border: 3px solid #777;
+	width: 60%;
+	/*height: 800px;*/
+	line-height: 30px;
+	font-size: 110%;
+}
+.carr,.edu,.tech,.achiv,.certificate,.lang,.declare{
+	margin-left: 2%;
+	padding-left: 1%;
+}
+.carr p{
+	margin-left: -1%;
+}
+.edu table{
+	margin-left: -1%;
+}
+.declare p{
+	margin-left: -1%;
+}
+table,th,td{
+	border: 1px solid black;
+}
+th,td{
+	text-align: center;
+	padding: 2px;
+}
+ul{
+	margin-left: 1%;
+}
+ol{
+	margin-left: 2%;
+	padding-left: 0%;
+}
+h3{
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+@media (max-width: 991px){
+	img{
+		left: 50%;
+	}
+}
+
+@media (max-width: 767px){
+	.west-box{
+		display: block;
+	}
+	.in-west{
+		width: 100%;
+	}
+	.in-east{
+		width:100%;
+	}
+}

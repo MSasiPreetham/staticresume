@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- EMBEDDING THE POPPINS FONT FROM GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:
+				wght@300;400;500&display=swap" rel="stylesheet">
+				
+	<title> CREATE A PROFILE CARD USING CSS </title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+ <div class="card-content">
+		<div class="profile-img">
+			<img src="data:image/png;base64,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" alt="user image">
+		</div>
+		<div class="field">
+			<h4 class="name">Name: Sasi Preetham </h4>
+            <p class="profession">Role: ui/ux designer </p>
+            <p class="phone">phone: 1234567890</p>
+            <p class="email">email: abcdef@mail.com</p>
+            <a href="static resume project/index.html" class="view-btn">view</a>
+		</div>	
+    </div>
+</div>
+</body>
+</html>
